@@ -9,3 +9,4 @@ while True:
     if price > 70000:
         print("BTC price is above 70000 dollars!")
     time.sleep(5)
+            

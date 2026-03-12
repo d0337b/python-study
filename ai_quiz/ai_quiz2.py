@@ -5,4 +5,4 @@ for n in numbers:
         count[n] += 1
     else:
         count[n] = 1
-print(key=count.get)
+print(max(count, key=count.get))
