@@ -1,4 +1,4 @@
-def count_fruits(quiz_list):
+def count_fruits(quiz_list): #ai 퀴즈 어려엉
     quiz_dict = {}
     for n in quiz_list:
         if n in quiz_dict:
