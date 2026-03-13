@@ -1,4 +1,4 @@
-import random
+import random           #컴퓨터 guess 게임
 secret_number =random.randint(1, 10)
 attempt = 0
 while True:
