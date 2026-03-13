@@ -1,4 +1,4 @@
-def counter_numbers(numbers):
+def counter_numbers(numbers): #빈도수 구하기
     count = {}
     for n in numbers:
         if n in count:
@@ -7,11 +7,11 @@ def counter_numbers(numbers):
             count[n] = 1
     return count
 
-def find_most_frequent(count):
+def find_most_frequent(count): #최빈값 구하기
     max_number = None
     max_count = 0
 
-    for key in count:
+    for key in count: #value 빈도수
         if count[key] > max_count:
             max_count = count[key]
             max_number = key
