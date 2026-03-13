@@ -1,4 +1,4 @@
-import requests
+import requests #비트코인 API 연습
 url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
 response = requests.get(url)
 data = response.json()
