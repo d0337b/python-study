@@ -1,4 +1,4 @@
-low = 1
+low = 1     #computer_guess.py
 high = 100
 print("1부터 100 사이의 숫자를 하나 생각하세요")
 while True:
