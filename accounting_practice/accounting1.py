@@ -8,7 +8,7 @@ transactions = [
 result = {}
 for t in transactions:
     account = t["account"]
-    ammount = t["debit"] + t["credit"] #차변과 대변을 더해서 계정별로 합산
+    ammount = t["debit"] + t["credit"] #차변과 대변을 더해서 계정별로 합산하기
     if account in result:
         result[account] += ammount
     else:
