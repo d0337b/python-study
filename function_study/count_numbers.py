@@ -1,3 +1,4 @@
+#def도 자주 반복해서 loop랑 많이써보자
 def counter_numbers(numbers): #빈도수 구하기
     count = {}
     for n in numbers:
