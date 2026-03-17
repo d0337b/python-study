@@ -1,0 +1,6 @@
+account,debit,credit
+cash,100,0
+inventory,200,0
+cash,0,50
+equipment,500,0
+inventory,0,80
