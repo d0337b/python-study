@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("transactions.csv")
+df = pd.read_csv("transactions.csv") #transaction불러오기
 df["balance"] = df["debit"] - df["credit"]
 
 result =(
